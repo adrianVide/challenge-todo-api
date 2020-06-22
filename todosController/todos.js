@@ -13,6 +13,7 @@ class TodosController {
       res.json(todos);
       console.log(todos)
     } catch (error) {
+      console.log('couldnt find')
       console.log(error);
     }
   }
