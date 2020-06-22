@@ -3,7 +3,7 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const mongoose = require('mongoose');
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 4012;
 const publicDomain = process.env.PUBLIC_DOMAIN || 'http://localhost:3000'
 
 const config = require('./config/db');
