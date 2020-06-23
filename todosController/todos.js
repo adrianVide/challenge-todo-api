@@ -11,7 +11,6 @@ class TodosController {
     try {
       const todos = await Todo.find();
       res.json(todos);
-      console.log(todos)
     } catch (error) {
       console.log('couldnt find')
       console.log(error);
@@ -82,7 +81,6 @@ class TodosController {
     const { id } = req.params;
     const { toDoDone } = req.body;
 
-    console.log(toDoDone);
 
     try {
       toDoDone
